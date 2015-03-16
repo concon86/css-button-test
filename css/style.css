@@ -11,6 +11,148 @@
     explain your solution.
 
 */
-a {
+body{
 
 }
+a {
+	max-width: 250px;
+	display: block;
+	text-decoration: none;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	
+	font-size: 1.3em;
+	position: relative;
+
+padding: 10px;
+	
+}
+
+.outer-btn{
+	border-radius: 15px;
+	border: 2px solid #666;
+	padding: 1.5px 2px;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+
+}
+
+.inner-btn{
+	border-radius: 13px;
+	padding: 7px 7px;
+	background: #cbcbcb;
+
+}
+
+.btn {
+	text-transform: uppercase;
+	display: block;
+	padding: 15px 35px;
+	color: #555;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, .5);
+	border-radius: 10px;
+	text-align: center;
+	-webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.35);
+    background: #eaeaea;
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #d8d8d8 50%, #cecece 51%, #b2b2b2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(50%,#d8d8d8), color-stop(51%,#cecece), color-stop(100%,#b2b2b2));
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#d8d8d8 50%,#cecece 51%,#b2b2b2 100%);
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#d8d8d8 50%,#cecece 51%,#b2b2b2 100%);
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#d8d8d8 50%,#cecece 51%,#b2b2b2 100%);
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#d8d8d8 50%,#cecece 51%,#b2b2b2 100%);
+
+
+	
+}
+.star{
+	-moz-transform: rotate(35deg); 
+	-webkit-transform: rotate(35deg); 
+	-ms-transform: rotate(35deg); 
+	transform: rotate(35deg); 
+	transform: scale(.112,.112);
+
+}
+
+.star1{
+	position: absolute;
+	left:-53px;
+	top:-37px;
+}
+
+.star2{
+	position: absolute;
+	right:-53px;
+	top:-37px;
+}
+
+
+#star-five { 
+	margin: 50px 0; 
+	position: relative; 
+	display: block; 
+	color: red; 
+	width: 0px; height: 0px; 
+	border-right: 100px solid transparent; 
+	border-bottom: 70px solid #888888; 
+	border-left: 100px solid transparent; 
+	-moz-transform: rotate(35deg); 
+	-webkit-transform: rotate(35deg); 
+	-ms-transform: rotate(35deg); 
+	-o-transform: rotate(35deg); 
+	
+} 
+#star-five:before { 
+	border-bottom: 80px solid #888888; 
+	border-left: 30px solid transparent; 
+	border-right: 30px solid transparent; 
+	position: absolute; 
+	height: 0; 
+	width: 0; 
+	top: -45px; 
+	left: -65px; 
+	display: block; 
+	content: ''; 
+	-webkit-transform: rotate(-35deg); 
+	-moz-transform: rotate(-35deg); 
+	-ms-transform: rotate(-35deg); 
+	-o-transform: rotate(-35deg); 
+} 
+
+	#star-five:after { 
+		position: absolute; 
+		display: block; 
+		color: red; 
+		top: 3px; 
+		left: -105px; 
+		width: 0px; 
+		height: 0px; 
+		border-right: 
+		100px solid transparent; 
+		border-bottom: 70px solid #888888; 
+		border-left: 100px solid transparent; 
+		-webkit-transform: rotate(-70deg); 
+		-moz-transform: rotate(-70deg); 
+		-ms-transform: rotate(-70deg); 
+		-o-transform: rotate(-70deg); 
+		content: ''; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
